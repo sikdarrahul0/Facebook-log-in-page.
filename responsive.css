@@ -1,0 +1,58 @@
+@media screen and (max-width: 980px) {
+  .logo {
+    width: 100%;
+    float: none;
+    text-align: center;
+  }
+
+  .login-area {
+    width: 467px;
+    float: none;
+    margin: 10px auto;
+  }
+
+  .login-area form {
+    float: none;
+  }
+  .left-part{
+    width: 100%;
+    float: none;
+  }
+  .right-part{
+    width: 100%;
+    float: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .login-area {
+    width: 100%;
+  }
+
+  .login-area .email,
+  .login-area .password,
+  .login-area .login {
+    float: none;
+    margin-right: 0;
+  }
+
+  .login-area input[type="text"],
+  .login-area input[type="password"] {
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .login-area .login input[type="submit"]{
+    margin-top: 10px;
+}
+.birth-date{
+  margin-bottom: 10px;
+}
+}
+@media screen and (max-width: 480px) {
+  .container{
+    width: 80%;
+  }
+  .left-part img{
+    width: 80%;
+  }
+}
